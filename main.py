@@ -60,7 +60,9 @@ def main():
     from themes.theme import adjust_theme, advanced_css, theme_declaration, js_code_clear, js_code_reset, js_code_show_or_hide, js_code_show_or_hide_group2
     from themes.theme import js_code_for_toggle_darkmode, js_code_for_persistent_cookie_init
     from themes.theme import load_dynamic_theme, to_cookie_str, from_cookie_str, assign_user_uuid
-    title_html = f"<h1 align=\"center\">GPT 学术优化 {get_current_version()}</h1>{theme_declaration}"
+    #title_html = f"<h1 align=\"center\">GPT 学术优化 {get_current_version()}</h1>{theme_declaration}"
+    title_html = f"<h1 align=\"center\">GPT 学术优化 {get_current_version()}</h1><h2 align=\"center\">本公益站由科研之心（https://ai.linkagi.top）提供，主要为AI科研教学实践使用，更稳定服务请到科研之心官网选择付费服务。</h2>{theme_declaration}"
+ 
 
 
     # 一些普通功能模块
